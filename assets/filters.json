@@ -1,0 +1,9 @@
+{
+  "filters": [
+    { "filter": "Πρόσφατα - Παλαιότερα", "businessAccount": true },
+    { "filter": "Παλαιότερα - Πρόσφατα", "businessAccount": true },
+    { "filter": "Της ειδικότητάς μου", "businessAccount": false },
+    { "filter": "Περισσότερες προβολές", "businessAccount": true },
+    { "filter": "Περισσότερες αιτήσεις", "businessAccount": true }
+  ]
+}

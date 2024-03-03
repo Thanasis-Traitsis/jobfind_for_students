@@ -1,0 +1,89 @@
+import 'package:flutter/material.dart';
+
+import '../../../../config/theme/colors.dart';
+import '../../../../core/constants/font_size.dart';
+import '../../../../core/constants/styles.dart';
+import '../../../../core/errors/error_model.dart';
+import '../../../../core/usecases/calculate_font_size.dart';
+
+Widget  FiedDropdownButton({
+  required Function(String?) onPressed,
+  required var list,
+  required String? value,
+  required String error,
+  required BuildContext context,
+  required String heading,
+  required String placeholder,
+  ErrorModel? errorModel,
+}) {
+  return Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: [
+      Container(
+        alignment: Alignment.centerLeft,
+        height: 30,
+        child: Text(
+          heading,
+          style: TextStyle(
+            fontSize: calculateFontSize(context, normalText),
+            fontWeight: FontWeight.bold,
+            color: ColorsConst.primaryColor,
+          ),
+        ),
+      ),
+      DropdownButtonFormField(
+        decoration: InputDecoration(
+          contentPadding: const EdgeInsets.symmetric(
+            vertical: 16.0,
+            horizontal: 16.0,
+          ),
+          filled: true,
+          fillColor: ColorsConst.white,
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(borderRadius),
+            borderSide: BorderSide(color: ColorsConst.primaryColor, width: 1.0),
+          ),
+          focusedBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(borderRadius),
+            borderSide: BorderSide(color: ColorsConst.primaryColor, width: 2.0),
+          ),
+        ),
+        value: value,
+        hint: Text(
+          'Επιλέξτε $placeholder',
+          style: TextStyle(
+            fontSize: calculateFontSize(context, smallText),
+          ),
+        ),
+        onChanged: onPressed,
+        isExpanded: true,
+        borderRadius: BorderRadius.circular(borderRadius),
+        items: list.map<DropdownMenuItem<String>>((String value) {
+          return DropdownMenuItem<String>(
+            value: value,
+            child: Text(
+              value,
+              style: TextStyle(
+                fontSize: calculateFontSize(context, smallText),
+              ),
+            ),
+          );
+        }).toList(),
+      ),
+      Container(
+        margin: const EdgeInsets.only(top: 5, bottom: 10),
+        child: Text(
+          errorModel == null
+              ? ''
+              : errorModel.errors.containsKey(error)
+                  ? errorModel.errors[error]![0]
+                  : '',
+          style: TextStyle(
+            fontSize: calculateFontSize(context, smallText),
+            color: ColorsConst.errorColor,
+          ),
+        ),
+      ),
+    ],
+  );
+}

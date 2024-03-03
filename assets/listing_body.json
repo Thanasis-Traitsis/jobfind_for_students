@@ -1,0 +1,11 @@
+{
+    "listing_body": [
+      "title",
+      "description",
+      "requirements",
+      "benefits",
+      "employment_type",
+      "experience",
+      "major_ids"
+    ]
+  }

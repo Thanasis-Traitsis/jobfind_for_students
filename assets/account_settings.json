@@ -1,0 +1,32 @@
+{
+  "account_settings": [
+    {
+      "user": ["first_name", "last_name", "father_name", "mother_name", "email"]
+    },
+    {
+      "old_student": [
+        "first_name",
+        "last_name",
+        "father_name",
+        "mother_name",
+        "email"
+      ]
+    },
+    {
+      "business": [
+        "first_name",
+        "last_name",
+        "company",
+        "company_description",
+        "distinctive_title",
+        "occupation",
+        "afm",
+        "doy",
+        "address",
+        "city",
+        "postal_code",
+        "email"
+      ]
+    }
+  ]
+}

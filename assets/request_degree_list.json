@@ -1,0 +1,11 @@
+{
+  "request_degree_list": [
+    "address",
+    "postal_code",
+    "city",
+    "county",
+    "mobile_phone",
+    "telephone",
+    "course"
+  ]
+}
