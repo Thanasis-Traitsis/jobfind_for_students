@@ -1,6 +1,6 @@
 # JobFind for Students
 
-![Logo](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/logo-blue2.png?raw=true)
+![Logo](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/logo-blue.png?raw=true)
 
 Welcome to the **JobFind for Students**, a comprehensive Flutter application designed to streamline the job search process for students and graduates of a University. Developed with a focus on user experience and efficiency, this app serves as a centralized platform where students can explore job opportunities tailored to their fields of study, while providing companies with a convenient avenue to connect with talented individuals from the university community.
 
@@ -30,7 +30,7 @@ Whether you're a student eager to kickstart your career or a company seeking top
 
 | Listings Screen | Job Details Screen |
 | ------- | -------- |
-| ![Listings](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/job_listings2.png?raw=true) | ![Details](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/job_details2.png?raw=true) |
+| <img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/job_listings2.png?raw=true" alt="Listings" width="300" height="auto"> | <img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/job_details2.png?raw=true" alt="Details" width="300" height="auto"> |
 
 - **Profile Management**: Students can upload resumes, set profile images, and edit profile details.
 - **Company Dashboard**: Companies can view applicants for their job listings and download resumes.
@@ -38,4 +38,4 @@ Whether you're a student eager to kickstart your career or a company seeking top
 <img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/profile2.png?raw=true" alt="Profile" width="300" height="auto">
 
 *Important note:* <br>
-Please note that while the Flutter codebase was developed by me, the API and backend infrastructure were not created by me. For any inquiries regarding the backend, please refer to my friend 
+Please note that while the Flutter codebase was developed by me, the API and backend infrastructure were not created by me. For any inquiries regarding the backend, please refer to my friend [Thanos Stantzouris](https://sudorealm.com/blog/profile/d3ad-r1nger)
