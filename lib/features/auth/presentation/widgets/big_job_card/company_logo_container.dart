@@ -56,7 +56,8 @@ Widget CompanyLogoContainer({
             ),
             child: CachedNetworkImage(
               key: UniqueKey(),
-              imageUrl: publicUrl + imgUrl,
+              // imageUrl: publicUrl + imgUrl,
+              imageUrl: imgUrl,
               fit: BoxFit.cover,
             ),
           ),
