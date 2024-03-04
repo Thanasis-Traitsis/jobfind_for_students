@@ -6,11 +6,17 @@ Welcome to the **JobFind for Students**, a comprehensive Flutter application des
 
 Whether you're a student eager to kickstart your career or a company seeking top-tier talent, the Student JobFind App offers a wide range of features to meet your needs. From personalized job recommendations based on your academic background to seamless application processes and robust profile management tools, this app has everything you need to navigate the job market with confidence.
 
+## Code base
+
+- **BLoC Package**: Utilized for state management in the application.
+- **GoRouter Package**: Implemented for efficient navigation within the app.
+- **Feature-Based Architecture**: Organized codebase following feature-based architecture for better maintainability.
+- **API Integration**: Handled all API calls seamlessly for smooth data exchange between the app and the backend.
+
 ## Features
 
 - **User Authentication**: Sign up and log in as a student, a graduated student, or a company.
 - **OAuth2.0**: Student signup should be approved from University's website.
-
 
 <img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/login2.png?raw=true" alt="Login" width="300" height="auto">
 
@@ -20,7 +26,7 @@ Whether you're a student eager to kickstart your career or a company seeking top
 
 | Home Screen | Favorite Screen |
 | -------- | ------- |
-| ![Home](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/home2.png?raw=true)| ![Favorite](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/favorite2.png?raw=true) | 
+| <img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/home2.png?raw=true" alt="Home" width="300" height="auto"> | <img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/favorite2.png?raw=true" alt="Favorite" width="300" height="auto">| 
 
 | Listings Screen | Job Details Screen |
 | ------- | -------- |
@@ -30,13 +36,6 @@ Whether you're a student eager to kickstart your career or a company seeking top
 - **Company Dashboard**: Companies can view applicants for their job listings and download resumes.
 
 <img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/profile2.png?raw=true" alt="Profile" width="300" height="auto">
-
-## Code base
-
-- **BLoC Package**: Utilized for state management in the application.
-- **GoRouter Package**: Implemented for efficient navigation within the app.
-- **Feature-Based Architecture**: Organized codebase following feature-based architecture for better maintainability.
-- **API Integration**: Handled all API calls seamlessly for smooth data exchange between the app and the backend.
 
 *Important note:* <br>
 Please note that while the Flutter codebase was developed by me, the API and backend infrastructure were not created by me. For any inquiries regarding the backend, please refer to my friend 
