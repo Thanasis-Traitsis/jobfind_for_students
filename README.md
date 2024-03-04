@@ -1,6 +1,6 @@
 # JobFind for Students
 
-![Logo](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/logo-blue.png?raw=true)
+![Logo](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/logo-blue.png2?raw=true)
 
 Welcome to the **JobFind for Students**, a comprehensive Flutter application designed to streamline the job search process for students and graduates of a University. Developed with a focus on user experience and efficiency, this app serves as a centralized platform where students can explore job opportunities tailored to their fields of study, while providing companies with a convenient avenue to connect with talented individuals from the university community.
 
@@ -11,7 +11,7 @@ Whether you're a student eager to kickstart your career or a company seeking top
 - **User Authentication**: Sign up and log in as a student, a graduated student, or a company.
 - **OAuth2.0**: Student signup should be approved from University's website.
 - 
-<img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/login.png?raw=true" alt="Login" width="300" height="auto">
+<img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/login.png2?raw=true" alt="Login" width="300" height="auto">
 
 - **Recommended Jobs**: Receive personalized job recommendations based on your field of study.
 - **Favorites**: Mark jobs as favorites for quick access later.
@@ -19,16 +19,16 @@ Whether you're a student eager to kickstart your career or a company seeking top
 
 | Home Screen | Favorite Screen |
 | -------- | ------- |
-| ![Home](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/home.png?raw=true)| ![Favorite](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/favorite.png?raw=true) | 
+| ![Home](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/home.png2?raw=true)| ![Favorite](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/favorite.png2?raw=true) | 
 
 | Listings Screen | Job Details Screen |
 | ------- | -------- |
-| ![Listings](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/job_listings.png?raw=true) | ![Details](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/job_details.png?raw=true) |
+| ![Listings](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/job_listings.png2?raw=true) | ![Details](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/job_details.png2?raw=true) |
 
 - **Profile Management**: Students can upload resumes, set profile images, and edit profile details.
 - **Company Dashboard**: Companies can view applicants for their job listings and download resumes.
 
-<img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/profile.png?raw=true" alt="Profile" width="300" height="auto">
+<img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/profile.png2?raw=true" alt="Profile" width="300" height="auto">
 
 ## Code base
 
