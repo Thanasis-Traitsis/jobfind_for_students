@@ -28,7 +28,7 @@ Whether you're a student eager to kickstart your career or a company seeking top
 - **Profile Management**: Students can upload resumes, set profile images, and edit profile details.
 - **Company Dashboard**: Companies can view applicants for their job listings and download resumes.
 
-![Profile](https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/profile.png?raw=true)
+<img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/profile.png?raw=true" alt="Profile" width="300" height="auto">
 
 ## Code base
 
