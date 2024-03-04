@@ -10,7 +10,8 @@ Whether you're a student eager to kickstart your career or a company seeking top
 
 - **User Authentication**: Sign up and log in as a student, a graduated student, or a company.
 - **OAuth2.0**: Student signup should be approved from University's website.
-- 
+
+
 <img src="https://github.com/Thanasis-Traitsis/jobfind_for_students/blob/main/assets/images/login2.png?raw=true" alt="Login" width="300" height="auto">
 
 - **Recommended Jobs**: Receive personalized job recommendations based on your field of study.
